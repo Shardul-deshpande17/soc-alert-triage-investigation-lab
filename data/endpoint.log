@@ -1,0 +1,9 @@
+timestamp=2026-08-24T09:42:12Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=explorer.exe parent_process=userinit.exe pid=1840 command_line=explorer.exe
+timestamp=2026-08-24T09:42:46Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=cmd.exe parent_process=explorer.exe pid=3920 command_line=cmd.exe /c whoami
+timestamp=2026-08-24T09:42:51Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=whoami.exe parent_process=cmd.exe pid=3944 command_line=whoami.exe
+timestamp=2026-08-24T09:43:06Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=cmd.exe parent_process=explorer.exe pid=4012 command_line=cmd.exe /c ipconfig /all
+timestamp=2026-08-24T09:43:14Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=ipconfig.exe parent_process=cmd.exe pid=4040 command_line=ipconfig.exe /all
+timestamp=2026-08-24T09:43:27Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=powershell.exe parent_process=explorer.exe pid=4216 command_line=powershell.exe -NoProfile -Command Get-NetTCPConnection
+timestamp=2026-08-24T09:43:38Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=nslookup.exe parent_process=powershell.exe pid=4252 command_line=nslookup.exe updates-example.com
+timestamp=2026-08-24T09:44:02Z event_type=process_creation host=WIN-SOC-01 user=employee02 process=chrome.exe parent_process=explorer.exe pid=5100 command_line=chrome.exe https://intranet.example.local
+timestamp=2026-08-24T09:44:25Z event_type=process_creation host=WIN-SOC-01 user=analyst01 process=notepad.exe parent_process=explorer.exe pid=4308 command_line=notepad.exe notes.txt
