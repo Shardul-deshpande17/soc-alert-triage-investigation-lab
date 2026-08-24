@@ -1,0 +1,5 @@
+timestamp=2026-08-24T09:43:38Z event_type=dns_query host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 query=updates-example.com query_type=A action=allowed
+timestamp=2026-08-24T09:43:44Z event_type=dns_query host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 query=intranet.example.local query_type=A action=allowed
+timestamp=2026-08-24T09:44:16Z event_type=dns_query host=WIN-SOC-01 user=employee02 src_ip=10.10.10.25 query=intranet.example.local query_type=A action=allowed
+timestamp=2026-08-24T09:45:03Z event_type=dns_query host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 query=updates-example.com query_type=A action=allowed
+timestamp=2026-08-24T09:45:21Z event_type=dns_query host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 query=example.com query_type=A action=allowed
