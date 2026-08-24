@@ -1,1 +1,8 @@
-
+timestamp=2026-08-24T09:41:02Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=failure reason=invalid_password
+timestamp=2026-08-24T09:41:08Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=failure reason=invalid_password
+timestamp=2026-08-24T09:41:15Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=failure reason=invalid_password
+timestamp=2026-08-24T09:41:23Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=failure reason=invalid_password
+timestamp=2026-08-24T09:42:01Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=success method=password
+timestamp=2026-08-24T09:43:12Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=success method=password
+timestamp=2026-08-24T09:44:05Z event_type=authentication host=WIN-SOC-01 user=employee02 src_ip=10.10.10.25 action=success method=password
+timestamp=2026-08-24T09:44:21Z event_type=authentication host=WIN-SOC-01 user=analyst01 src_ip=10.10.10.50 action=failure reason=invalid_password
