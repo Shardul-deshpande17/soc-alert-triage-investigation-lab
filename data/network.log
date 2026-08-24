@@ -1,0 +1,8 @@
+timestamp=2026-08-24T09:42:18Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.20 dest_port=445 protocol=TCP action=allowed
+timestamp=2026-08-24T09:42:23Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.21 dest_port=445 protocol=TCP action=allowed
+timestamp=2026-08-24T09:42:29Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.22 dest_port=445 protocol=TCP action=allowed
+timestamp=2026-08-24T09:42:35Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.23 dest_port=445 protocol=TCP action=blocked
+timestamp=2026-08-24T09:43:02Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.20 dest_port=3389 protocol=TCP action=blocked
+timestamp=2026-08-24T09:43:41Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.20 dest_port=443 protocol=TCP action=allowed
+timestamp=2026-08-24T09:44:10Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.25 dest_ip=10.10.10.20 dest_port=443 protocol=TCP action=allowed
+timestamp=2026-08-24T09:45:03Z event_type=network_connection host=WIN-SOC-01 src_ip=10.10.10.50 dest_ip=10.10.10.30 dest_port=53 protocol=UDP action=allowed
