@@ -75,16 +75,20 @@ The techniques below reflect observed behavior in the telemetry, not confirmed m
 
 ## Detection Logic
 
-The final detection flags accounts with repeated authentication failures immediately followed by a successful login, then surfaces the endpoint and network activity tied to that same user/source for context — turning a single login anomaly into a full picture in one search. It identifies users with 4 or more authentication failures and at least one successful authentication, then correlates the associated processes, DNS queries, and destination ports for that user/source.
+The final detection flags accounts with repeated authentication failures and at least one successful login, then surfaces the endpoint and network activity tied to that same user/source — turning a single login anomaly into a full picture in one search.
 
 Full query: [`spl/final_detection.spl`](spl/final_detection.spl)
 
 ## Evidence
 
 ![Authentication Events](screenshots/01-authentication-events.png)
+
 ![Endpoint & DNS Correlation](screenshots/02-endpoint-dns-correlation.png)
+
 ![Network Evidence](screenshots/03-network-evidence.png)
+
 ![Blocked RDP Attempt](screenshots/04-rdp-3389-blocked.png)
+
 ![Full Event Timeline](screenshots/05-full-event-timeline.png)
 
 ## Repository Structure
